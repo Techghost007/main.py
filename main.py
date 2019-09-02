@@ -310,8 +310,3 @@ and len(re.findall(regex_alternating_repetitive_digit_pair, P)) < 2)
 
 # print (bool(re.match(regex_integer_in_range, P)) 
 # and len(re.findall(regex_alternating_repetitive_digit_pair, P)) < 2)
-
-P = int(input())
-for P in range (100000, 999999):
-    if P[0] == P[2]:
-        return False
